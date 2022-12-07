@@ -1,0 +1,12 @@
+write a query to find max and min salary of an employee
+
+ select MAX(salary), MIN(salary)
+FROM Employees
+
+5 depmatments max, min of each department
+
+select dept_id, MIN(salary) as Minimum_sal,  MAX(salary) as Max_sal
+FROM Employee
+GROUP BY dept_id;
+
+

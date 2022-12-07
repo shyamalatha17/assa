@@ -1,0 +1,17 @@
+input in CSV files: s3://test-bucket/input
+from Narayanan H to Everyone14:19
+emp_id, emp_nm, date, emp_state
+from Narayanan H to Everyone14:19
+read only the last 3 months
+from Narayanan H to Everyone14:19
+uppercase the emp_nm field
+from Narayanan H to Everyone14:19
+write the result in parquet to s3://test-bucket/output
+from Narayanan H to Everyone14:20
+you need to store it by emp_stateimp
+
+
+
+
+spark.read.csv("s3://test-bucket/input ")
+
